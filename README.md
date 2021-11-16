@@ -1,7 +1,8 @@
 # openssl_using_nginx
 openssl_using_nginx
 steps:-
-1.login as root user                                              sudo su
+1.login as root user                                              
+```sudo su````
 2.install nginx                                                   
 ```
 yum install nginx
