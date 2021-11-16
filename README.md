@@ -26,7 +26,18 @@ cd /etc/nginx
 sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout msi.key -out msi.crt
 ```
 <img src="https://raw.githubusercontent.com/srinibasch/openssl_using_nginx/main/1.jpg">
-6.open the nginx.conf
+
 <img src="https://raw.githubusercontent.com/srinibasch/openssl_using_nginx/main/2.jpg">
+6.open the nginx.conf
+```
+nano nginx.conf
+```
+7. edit the ssl part inside the nginx.conf
+
 <img src="https://raw.githubusercontent.com/srinibasch/openssl_using_nginx/main/4.jpg">
+8. restart nginx to load the changes
+```
+systemctl restart nginx
+```
+10.go to browser and load localhost(you should get https://localhost/ as your link)
 <img src="https://raw.githubusercontent.com/srinibasch/openssl_using_nginx/main/5.jpg">
