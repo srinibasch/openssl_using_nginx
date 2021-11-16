@@ -26,6 +26,7 @@ cd /etc/nginx
 sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout msi.key -out msi.crt
 ```
 <img src="https://raw.githubusercontent.com/srinibasch/openssl_using_nginx/main/1.jpg">
+6.open the nginx.conf
 <img src="https://raw.githubusercontent.com/srinibasch/openssl_using_nginx/main/2.jpg">
 <img src="https://raw.githubusercontent.com/srinibasch/openssl_using_nginx/main/4.jpg">
 <img src="https://raw.githubusercontent.com/srinibasch/openssl_using_nginx/main/5.jpg">
