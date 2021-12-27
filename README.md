@@ -29,6 +29,8 @@ sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout msi.key -out ms
 
 <img src="https://raw.githubusercontent.com/srinibasch/openssl_using_nginx/main/2.jpg">
 6.open the nginx.conf
+
+
 ```
 nano nginx.conf
 ```
