@@ -36,8 +36,10 @@ nano nginx.conf
 
 <img src="https://raw.githubusercontent.com/srinibasch/openssl_using_nginx/main/4.jpg">
 8. restart nginx to load the changes
+
+
 ```
 systemctl restart nginx
 ```
-10.go to browser and load localhost(you should get https://localhost/ as your link)
+9.go to browser and load localhost(you should get https://localhost/ as your link)
 <img src="https://raw.githubusercontent.com/srinibasch/openssl_using_nginx/main/5.jpg">
